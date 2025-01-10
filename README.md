@@ -1,2 +1,15 @@
-# CRAFT_YOUR_RESUME
-The Resume Generator is an intuitive web app that helps users create professional resumes. It allows users to input personal information, work experience, and skills, providing real-time previews and customizable templates. Once completed, users can download their resumes in PDF or DOCX format for easy sharing and printing.
+# Resume-Generator-
+A simple Resume Generator built with HTML, CSS, and JavaScript, allowing users to easily create and customize a professional-looking resume.
+Visit-:  https://ombijalwan.github.io/Resume-Generator-/
+
+Features
+1. Input fields for personal and professional details
+2. Upload functionality to add a profile image
+3. Clean, printable resume layout
+
+Getting Started
+1. Clone the repository
+2. Open index.html in your browser to start building your resume.
+
+Contributing-:
+Contributions are welcome! Feel free to open issues or submit pull requests.

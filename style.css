@@ -1,0 +1,107 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa; /* Light background for readability */
+    color: #343a40; /* Dark text color for contrast */
+}
+
+.animated-heading {
+    font-size: 2.5rem;
+    color: #007bff; /* Bright blue color for the heading */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Subtle shadow for emphasis */
+    animation: fadeInDown 2s ease-in-out;
+}
+
+.section-title {
+    font-size: 1.5rem;
+    color: #6c757d; /* Muted gray for section titles */
+    border-left: 4px solid #007bff; /* Accent border with the same blue color */
+    padding-left: 10px;
+    animation: slideInLeft 1.5s ease-in-out;
+}
+
+.card-header {
+    background: linear-gradient(135deg, #007bff, #0056b3); /* Gradient effect for card headers */
+    text-align: center;
+    color: #fff; /* White text for better contrast */
+    padding: 15px;
+    border-radius: 8px;
+}
+
+button {
+    background-color: #007bff; /* Default blue background for buttons */
+    border: 2px solid #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+    background-color: #0056b3; /* Darker blue on hover */
+    border-color: #0056b3;
+}
+
+textarea, select {
+    resize: none;
+    padding: 10px;
+    border: 2px solid #ced4da; /* Light gray border */
+    border-radius: 5px;
+    background-color: #fff;
+    color: #495057; /* Dark gray text for inputs */
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+textarea:focus, select:focus {
+    border-color: #007bff; /* Blue border on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+input:focus {
+    border-color: #007bff; /* Blue border on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+input {
+    padding: 10px;
+    border: 2px solid #ced4da;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #495057;
+    font-size: 1rem;
+}
+
+label {
+    font-weight: bold;
+    color: #495057; /* Dark gray color for labels */
+    margin-bottom: 5px;
+    display: block;
+}
+
+#resume-form {
+    background-color: #ffffff; /* White background for the form */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for the form */
+    margin-top: 20px;
+}
+
+.card {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow for cards */
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+}
+
+@keyframes fadeInDown {
+    0% { opacity: 0; transform: translateY(-20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideInLeft {
+    0% { opacity: 0; transform: translateX(-20px); }
+    100% { opacity: 1; transform: translateX(0); }
+}
