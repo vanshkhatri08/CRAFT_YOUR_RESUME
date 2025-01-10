@@ -1,7 +1,7 @@
 #Craft Your Resume-
 
 Craft Your Resume is a simple, user-friendly tool built with HTML, CSS, and JavaScript that empowers users to create and customize professional resumes effortlessly.
-
+visit - https://vanshkhatri08.github.io/CRAFT_YOUR_RESUME/
 Explore the Project
 
 ✨ Features
